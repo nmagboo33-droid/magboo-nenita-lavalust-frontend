@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Login from "./LoginForm";
 
-const API_URL = "http://127.0.0.1:3000/api/products";
+const API_URL = "https://magboo-nenita-lavalust.onrender.com/api/products";
 
 function App() {
   const [products, setProducts] = useState([]);
